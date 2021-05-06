@@ -1,0 +1,170 @@
+/* Белый цвет #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* тёмный цвет фона #2F303A */
+/* цвет основного текста #212121  */
+/* цвет вторичного текста #757575  */
+/* основной цвет акцентов #2196F3 */
+/* вторичный цвет акцента #188CE8 */
+/* чорный цвет #000000 */
+/* цвет ссылок в подвале rgba(255, 255, 255, 0,6) */
+
+:root {
+  --primary-white-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --dark-background-color: #2f303a;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-accent-color: #2196f3;
+  --secondary-accent-color: #188ce8;
+  --black-color: #000000;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Logo */
+.logo {
+  color: var(--primary-accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo > .logo-black {
+  color: var(--black-color);
+}
+
+.link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Site-nav */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--primary-accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--primary-accent-color);
+}
+
+/* Auth-nav */
+.auth-nav .link {
+  color: var(--secondary-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--primary-accent-color);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--dark-background-color);
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* Button */
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--primary-accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--secondary-accent-color);
+}
+
+/* Section */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* Feature */
+.feature-text {
+  color: var(--secondary-text-color);
+}
+
+/* Team */
+.team {
+  background-color: var(--secondary-background-color);
+  line-height: 1.19;
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.team-text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--dark-background-color);
+}
+
+.logo > .logo-white {
+  color: var(--primary-white-color);
+}
+
+.footer-address {
+  color: var(--secondary-background-color);
+  font-style: inherit;
+}
+
+.ftr-nav .ftr-link {
+  color: var(--footer-link-color);
+  text-decoration: none;
+}
+
+.ftr-nav .ftr-link:hover,
+.ftr-nav .ftr-link:focus {
+  color: var(--primary-accent-color);
+}
