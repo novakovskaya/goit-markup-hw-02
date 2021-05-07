@@ -74,15 +74,15 @@ body {
   color: var(--primary-accent-color);
 }
 
-.contacts-nav .contacts-link {
+.contacts-link {
   color: var(--secondary-text-color);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.contacts-nav .contacts-link:hover,
-.contacts-nav .contacts-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--primary-accent-color);
 }
 /* ======= END HEADER ======= */
